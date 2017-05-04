@@ -20,6 +20,9 @@ fi
 # Update Homebrew
 brew update && brew bundle --file=resources/Brewfile
 
+# Update Profile
+cp ./resources/.bash_profile ~/.bash_profile
+
 # Cleanup
 brew cleanup && brew doctor
 
