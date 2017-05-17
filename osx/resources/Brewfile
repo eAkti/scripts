@@ -1,5 +1,3 @@
-# Use `brew bundle` to install the packages listed below
-
 # Casks
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
@@ -53,6 +51,7 @@ brew 'readline'
 brew 'openssl'
 cask 'iterm2'
 cask 'sublime-text'
+brew 'you-get'
 
 # App Store
 mas 'Tomato One', id: 907364780
@@ -61,7 +60,6 @@ mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'Microsoft Remote Desktop', id: 715768417
 mas 'Microsoft OneNote', id: 784801555
-mas 'Xcode', id: 497799835
 
 # Apps
 cask 'aerial'
@@ -79,6 +77,7 @@ brew 'awscli'
 cask 'chrome-devtools'
 brew 'git'
 brew 'heroku'
+brew 'httpie'
 cask 'insomnia'
 cask 'macdown'
 cask 'postman'

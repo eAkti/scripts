@@ -17,8 +17,9 @@ else
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-# Update Homebrew
-brew update && brew bundle --file=resources/Brewfile
+# Installing Apps
+warn "Installing Apps..."
+brew bundle --file=resources/Brewfile
 
 # Update Profile
 cp ./resources/.bash_profile ~/.bash_profile
